@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    username: hsp
+    password: 123456
+    url: jdbc:sqlite:blog.db
+    driver-class-name: org.sqlite.JDBC
+    schema: classpath:schema.sql
+    initialization-mode: always
+    continue-on-error: true
+my:
+  var1: liqiong
+  var2: 123
+password: 12345566
+email: test@anchnet.com
+account:
+  username: liqiong
+  password: 123456
+
+filepath: ./test/setst/stes/test.txt
+var: 123
+
+sftp:
+  host: 192.168.1.100
+  port: 22
+  username: root
+  password: 123456
+  local: /home/liqiong/test.txt
+  remote: /home/liqiong/test.txt
+sms:
+  username: 123456
+  password: 123456
+  appid: 123456
+  templateid: 123456
+  sign: 123456
+url:
+  http: http://www.baidu.com
+  https: https://www.baidu.com
+  ftp: ftp://www.baidu.com
+  file: file://www.baidu.com
+  jar: jar:file://www.baidu.com
+  ws: ws://www.baidu.com
+  wss: wss://www.baidu.com
+  jdbc: jdbc:mysql://www.baidu.com
+  redis: redis://www.baidu.com
